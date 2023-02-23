@@ -6,7 +6,7 @@ repositories{
 }
 
 dependencies {
-    compile(name:'barcodescanner-release-enhanced', ext:'aar')
+    implementation(name:'barcodescanner-release-enhanced', ext:'aar')
 }
 
 android {
